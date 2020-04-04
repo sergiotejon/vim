@@ -48,6 +48,9 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" Allow multiples buffer without saving and switch between them
+set hidden
+
 " Disable bell
 set belloff=all
 
@@ -103,7 +106,7 @@ noremap <Leader><Tab> :Bw<CR>
 noremap <Leader><S-Tab> :Bw!<CR>
 noremap <C-t> :tabnew split<CR>
 noremap ; :Files<CR>
-noremap . :NERDTree<CR>
+noremap ,n :NERDTree<CR>
 
 " GitGutter maps
 nmap ]c <Plug>(GitGutterNextHunk)
