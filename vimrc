@@ -116,7 +116,7 @@ nmap <Leader>hu <Plug>(GitGutterUndoHunk)
 "autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " Terraform plugin configuration
-let g:terraform_fmt_on_save=1
+let g:terraform_fmt_on_save=0 " :TerraformFmt
 let g:terraform_align=1
 let g:terraform_fold_sections=0
 
