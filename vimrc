@@ -31,6 +31,10 @@ Plugin 'hashivim/vim-terraform'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-eunuch'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'pearofducks/ansible-vim'
+Plugin 'fatih/vim-go'
 Plugin 'ryanoasis/vim-devicons' " Always the last on load
 
 " All of your Plugins must be added before the following line
@@ -59,6 +63,9 @@ set number
 
 " Tabs to 4 spaces
 set ts=4 sw=4
+
+" Highligh patterm matching
+:set hlsearch
 
 " Custom Statusline
 "set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
