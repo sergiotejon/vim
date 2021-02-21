@@ -1,5 +1,8 @@
 # Instalation
 
+## Dependencies
+* `fzf` binary. It could be installed with `brew`
+
 ## Fonts for MAC
 ```
 brew tap homebrew/cask-fontsi && \
@@ -19,7 +22,7 @@ fc-cache -f -v
 
 Select Hack Nerd Font in fonts config section of your terminal application
 
-### Vundle and plugins 
+## Vundle and plugins 
 ```
 git clone https://github.com/sergiotejon/vim.git ~/.vim 
 cd ~ && ln -s ~/.vim/vimrc .vimrc
