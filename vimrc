@@ -35,6 +35,7 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'pearofducks/ansible-vim'
 Plugin 'fatih/vim-go'
+Plugin 'yegappan/grep'
 Plugin 'ryanoasis/vim-devicons' " Always the last on load
 
 " All of your Plugins must be added before the following line
