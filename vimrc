@@ -36,6 +36,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'pearofducks/ansible-vim'
 Plugin 'fatih/vim-go'
 Plugin 'yegappan/grep'
+Plugin 'vim-scripts/TaskList.vim'
 Plugin 'ryanoasis/vim-devicons' " Always the last on load
 
 " All of your Plugins must be added before the following line
@@ -130,4 +131,7 @@ nmap <Leader>hu <Plug>(GitGutterUndoHunk)
 let g:terraform_fmt_on_save=0 " :TerraformFmt
 let g:terraform_align=1
 let g:terraform_fold_sections=0
+
+" Map leader key
+let mapleader = "."
 
