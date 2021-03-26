@@ -29,7 +29,6 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'hashivim/vim-terraform'
 Plugin 'hashivim/vim-packer'
-Plugin 'b4b4r07/vim-hcl'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-eunuch'
 Plugin 'airblade/vim-gitgutter'
@@ -133,6 +132,9 @@ nmap <Leader>hu <Plug>(GitGutterUndoHunk)
 let g:terraform_fmt_on_save=0 " :TerraformFmt
 let g:terraform_align=1
 let g:terraform_fold_sections=0
+
+" Terraform compatibility with hcl files
+autocmd BufRead,BufNewFile *.hcl set filetype=terraform
 
 " Map leader key
 let mapleader = "."
