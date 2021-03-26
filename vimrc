@@ -28,6 +28,8 @@ Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'hashivim/vim-terraform'
+Plugin 'hashivim/vim-packer'
+Plugin 'b4b4r07/vim-hcl'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-eunuch'
 Plugin 'airblade/vim-gitgutter'
