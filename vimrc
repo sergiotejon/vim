@@ -139,3 +139,7 @@ autocmd BufRead,BufNewFile *.hcl set filetype=terraform
 " Map leader key
 let mapleader = "."
 
+" TAB configuration
+set tabstop=2 shiftwidth=2 expandtab
+map <F2> :retab <CR>
+
