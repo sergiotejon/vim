@@ -33,11 +33,12 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-eunuch'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
+"Plugin 'plasticboy/vim-markdown'
 Plugin 'pearofducks/ansible-vim'
 Plugin 'fatih/vim-go'
 Plugin 'yegappan/grep'
 Plugin 'vim-scripts/TaskList.vim'
+Plugin 'aserebryakov/vim-todo-lists'
 Plugin 'ryanoasis/vim-devicons' " Always the last on load
 
 " All of your Plugins must be added before the following line
@@ -142,4 +143,3 @@ let mapleader = "."
 " TAB configuration
 set tabstop=2 shiftwidth=2 expandtab
 map <F2> :retab <CR>
-
