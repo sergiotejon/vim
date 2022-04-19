@@ -143,3 +143,6 @@ let mapleader = "."
 " TAB configuration
 set tabstop=2 shiftwidth=2 expandtab
 map <F2> :retab <CR>
+
+" Highlight column 81
+set colorcolumn=81
